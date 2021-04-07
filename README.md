@@ -1,1 +1,1 @@
-# This repository will contain my HTML and CSS projects from The Tech Academy.
+# This repository will contain my HTML and CSS projects for The Tech Academy.
