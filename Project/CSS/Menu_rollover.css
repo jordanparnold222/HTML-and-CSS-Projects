@@ -6,7 +6,7 @@ body    {
     top: 0;
     left: 0;
     height: auto;
-    width: 100%
+    width: 100%;
 }
 
 .menu-container {
@@ -28,11 +28,11 @@ body    {
 }
 
 .menu li {
-    color: B3B3B3;
+    color: #B3B3B3;
     display: inline-block;
     margin-right: -2px;
     position: relative;
-    padding: 12 px 40px;
+    padding: 12px 40px;
     border: 1px solid #9D9FA2;
     border-radius: 1.5px;
     background-color: #387593;
@@ -59,6 +59,13 @@ color: #fff;
     /* While not-yet hovered, drop-down menu appears. This also avoids a block-level bug */
     visibility: hidden;
 }
+
+.submenu li {
+    background-color: #387593;
+    display: block;
+    color: #B3B3B3;
+}
+
 .submenu li:hover {
     color:#fff;
     background-color: #5EAFDF;
