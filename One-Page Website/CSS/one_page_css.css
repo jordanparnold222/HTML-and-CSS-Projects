@@ -1,0 +1,20 @@
+html{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+}
+
+input   {
+    width: 25%;
+    margin: 5px;
+    border: 1.5px solid black;
+    border-radius: 7px;
+}
+
+.form-container {
+    border: 3px solid gray;
+    border-radius: 5px;
+}
+
+.form-container h3{
+    text-align: center;
+}
