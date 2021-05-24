@@ -1,0 +1,59 @@
+.centered_image  {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    filter: blur(3px);
+    border-radius: 90px;
+}
+
+.foot   {
+    margin-top: 5px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+table, tr, th, td  {
+    border: 2px solid black;
+    padding: 10px;
+}
+
+th{
+    background-color: aqua;
+}
+
+.container  {
+    position: relative;
+    text-align: center;
+    color: white;
+    marg
+}
+
+.center_text    {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    background-color: aquamarine;
+    color: brown;
+    
+}
+
+.navbar a{
+    align-items: center;
+    display: inline-block;
+}
+
+.navbar:hover{
+
+    background-color: black;
+    color: white;
+}

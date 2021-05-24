@@ -1,0 +1,37 @@
+.flex-container {
+    display: flex;
+    background-color: #aaa;
+}
+
+.flex-container div {
+    flex: 50%;
+    padding: 10px;
+    height: 300px;
+    background-color: aqua;
+    color: blueviolet;
+    font-size: 40px;
+    height: 500px;
+    width: auto;
+    margin-top: 20px;
+
+}
+
+p:hover{
+    font-size: 50px;
+    color: yellow;
+    background-color: black;
+}
+
+.hoverthing {
+    text-align: center;
+    opacity: 0;
+}
+
+.hoverthing:hover {
+    text-align: center;
+    opacity: 1;
+}
+
+.img-container img:hover{
+    opacity: 0;
+}
