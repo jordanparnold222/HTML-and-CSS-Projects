@@ -1,8 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="./CSS/one_page_css.css">
 	<title>Book COVID-afflicted DJs</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="./CSS/one_page_css.css">
+	<link rel="stylesheet" type="text/css" href="./CSS/lightbox.min.css">
+	<script src="./JS/lightbox-plus-jquery.min.js"></script>
 </head>
 	
 		
@@ -30,15 +34,18 @@
 			
 			<!-- GALLERY -->
 				<div id="gallery">
-					<div>
-					<h1>TAKE A LOOK AT THE SUPERSTAR DJs WHO ARE WILLING TO PERFORM AT YOUR NEPHEWS'S BAR MITZFAH IN KENTUCKY!</h1>
+
+					<h1 class="GalHeader">TAKE A LOOK AT THE SUPERSTAR DJs WHO ARE WILLING TO PERFORM AT YOUR NEPHEWS'S BAR MITZFAH IN KENTUCKY!</h1>
+					<div class="theGallery">
 										<!-- DJ 1 -->
 							<div>
 								<div>
 								<p>STEVE AOKI</p>
 								</div>
 									<div>
-										<img src="./images/thumb/Aoki.jpg" alt="Steve Aoki">
+										<a href="./images/thumb/big/aoki-big.png" data-lightbox="mygallery">
+											<img src="./images/thumb/aoki-thumb.png" alt="Steve Aoki">
+										</a>
 									</div>
 							</div>
 										<!--END DJ 1 -->			
@@ -48,7 +55,9 @@
 								<p>PARIS HILTON</p>
 								</div>
 									<div>
-										<img src="./images/thumb/Hilton.jpg" alt="Steve Aoki">
+										<a href="./images/thumb/big/hilton-big.png" data-lightbox="mygallery">
+											<img src="./images/thumb/hilton-thumb.png" alt="Paris Hilton">
+										</a>
 									</div>
 							</div>
 										<!--END DJ 2 -->		
@@ -58,7 +67,9 @@
 								<p>KEVIN FEDERLINE</p>
 								</div>
 									<div>
-										<img src="./images/thumb/KFED.jpg" alt="Steve Aoki">
+										<a href="./images/thumb/big/kfed-big.png" data-lightbox="mygallery">
+											<img src="./images/thumb/kfed-thumb.png" alt="Kevin Federline">
+										</a>
 									</div>
 							</div>
 										<!--END DJ 3 -->	
@@ -68,7 +79,9 @@
 								<p>MIJA</p>
 								</div>
 									<div>
-										<img src="./images/thumb/Mija.jpg" alt="Steve Aoki">
+										<a href="./images/thumb/big/mija-big.png" data-lightbox="mygallery">
+											<img src="./images/thumb/mija-thumb.png" alt="Mija">
+										</a>
 									</div>
 							</div>
 										<!--END DJ 4 -->	
@@ -78,7 +91,9 @@
 								<p>SKIM BEEBLE</p>
 								</div>
 									<div>
-										<img src="./images/thumb/Beeble.jpg" alt="Steve Aoki">
+										<a href="./images/thumb/big/beeble-big.png" data-lightbox="mygallery">
+											<img src="./images/thumb/beeble-thumb.png" alt="Skim Beeble">
+										</a>
 									</div>
 							</div>
 										<!--END DJ 5 -->													
@@ -134,7 +149,7 @@
 			<!-- CONTACT -->
 			<div id="contact">
 				<div class="form-container">
-				<h3>Book a DJ today by filling out the form below!</h1>
+				<h3>Book a DJ today by filling out the form below!</h3>
 				<form action="" method="post">
 					<input class="Booking" type="text" value="DJ Name"></br>
 					<input class="Booking" type="text" value="Date Requested"></br>

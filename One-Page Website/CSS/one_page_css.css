@@ -18,3 +18,30 @@ input   {
 .form-container h3{
     text-align: center;
 }
+
+.theGallery {
+
+    display: grid;
+    margin: 10px 50px;
+    grid-template-columns: repeat(3, 250px);
+}
+
+.theGallery img{
+
+    transition: .3s;
+    padding: 15px;
+    width: 200px;
+    filter: grayscale(75%);
+}
+
+.theGallery img:hover{
+
+    filter: grayscale(0%);
+    transform: scale(1.05);
+}
+
+.GalHeader  {
+
+    text-align: center;
+}
+
