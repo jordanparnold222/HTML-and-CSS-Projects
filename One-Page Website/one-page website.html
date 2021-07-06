@@ -8,10 +8,23 @@
 	<link rel="stylesheet" type="text/css" href="./CSS/lightbox.min.css">
 	<script src="./JS/lightbox-plus-jquery.min.js"></script>
 	<script src="./JS/one_page_website.js"></script>
+	<script src="./JS/Form_Validation.js"></script>
 </head>
 	
 		
-		<!-- NAV -->
+		<body>
+
+			<script>
+				document.body.classList.add('fade-out');
+				
+
+window.addEventListener('DOMContentLoaded', () => {
+    document.body.classList.remove('fade-out');
+
+});
+			  </script>
+			
+			<!-- NAV -->
 			<div>
 				<div>
 					<ul>
@@ -101,7 +114,7 @@
 					</div>
 			<!-- END GALLERY -->
 			
-			<!-- VIDEO GALLERY-->
+			 <!-- VIDEO GALLERY-->
 				<div id="videos">
 				<h1>HERE ARE LIVE PERFORMANCE VIDEOS OF THESE DJs!</h1>
 					<div>
@@ -149,13 +162,20 @@
 			
 			<!-- CONTACT -->
 			<div id="contact">
-				<div class="form-container">
+				<div>
+					<button class="form-opener" onclick="openForm()">C O N T A C T</button>
+				</div>
+			
+				<div class="form-container" id="myForm">
 				<h3>Book a DJ today by filling out the form below!</h3>
-				<form action="" method="post">
+				<form name="daForm" action="" onsubmit="return formValidate()" method="post">
 					<input class="Booking" type="text" value="DJ Name"></br>
 					<input class="Booking" type="text" value="Date Requested"></br>
 					<input class="Booking" type="text" value= "Your first and last name"></br>
 					<input class="Booking" type="text" value= "Email"></br>
+					<input class="Booking" type="text" value="Phone Number" name=fname>
+
+					<input type="submit" value="Submit">
 				</form>
 			</div>
 			</div>
@@ -165,5 +185,7 @@
 			<div>
 			<p>www.BookADesperateDJ.please &nbsp;|&nbsp; &copy; 2021</p>
 			</div>
+
+		</body>
 			
 </html>
